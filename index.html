@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="title">Shopping Cart</h1>
+    </header>
+
+    <main>
+      <!-- Button to toggle cart visibility -->
+      <button id="cart-btn" type="button" class="btn">
+        <span id="show-hide-cart">Show</span> Cart
+      </button>
+      <!-- Cart panel (hidden by default in CSS) -->
+      <div id="cart-container">
+        <!-- Clears all items from cart -->
+        <button class="btn" id="clear-cart-btn">Clear Cart</button>
+        <!-- Products added container -->
+        <div id="products-container"></div>
+        <!-- Cart info -->
+        <p>Total number of items: <span id="total-items">0</span></p>
+        <p>Subtotal: <span id="subtotal">$0</span></p>
+        <p>Taxes: <span id="taxes">$0</span></p>
+        <p>Total: <span id="total">$0</span></p>
+      </div>
+      <!-- All product cards-->
+      <div id="dessert-card-container"></div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
