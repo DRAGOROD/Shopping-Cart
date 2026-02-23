@@ -1,5 +1,7 @@
 This project is a simple interactive shopping cart web application where users can browse a list of dessert products, add items to their cart, view totals including taxes, and clear the cart when needed.This application dynamically updates product quantities, calculates subtotal and tax automatically, and provides a toggleable cart panel for a clean user experience.
 
+**⭐Project Link:-** https://dragorod.github.io/Shopping-Cart/
+
 **🧰 Toolkits Used**
 HTML5
 CSS3
