@@ -3,8 +3,8 @@ This project is a simple interactive shopping cart web application where users c
 **⭐Project Link:-** https://dragorod.github.io/Shopping-Cart/
 
 **🧰 Toolkits Used**
-HTML5
-CSS3
+HTML
+CSS
 JavaScript
 
 **⚙️ The Process**
